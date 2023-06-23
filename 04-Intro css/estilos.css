@@ -1,0 +1,27 @@
+/* estilo a todas esas etiquetas */
+h1 {
+  color: burlywood;
+}
+
+p {
+  color: darkgray;
+  font-size: 26px;
+}
+
+/* estilo cuando se pone con id */
+#titulo{
+background-color: rgba(255, 228, 196, 0.349);
+text-transform:uppercase;
+
+}
+
+/* estilo cuando se pone con class */
+.parrafo{
+background-color: rgba(127, 255, 212, 0.336);
+}
+
+
+/* estilos a todo lo que no tiene nada especifico,selector universal */
+*{
+    color: brown;
+}

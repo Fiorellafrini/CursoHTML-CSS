@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Tilt+Neon&family=Tilt+Prism&display=swap');
+
+.colores {
+  color: burlywood;
+  /* background-color: aquamarine; */
+  background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/09/mejor-aplicacion-fondos-pantalla-animados-llegaria-android-dentro-poco-2482649.jpg?tf=828x");
+  width: 1000px;
+  height: 460px;
+  /* background-position: right; */
+  /* background-image: url("countries.png"); */
+}
+
+.espacios{
+background-color: aquamarine;
+width: 200px;
+font-family: 'Tilt Prism', cursive;
+}
+
+.espacios2{
+background-color: cadetblue;
+height: 300px;
+font-weight: 900;
+font-family: 'Kablammo', cursive;
+}
