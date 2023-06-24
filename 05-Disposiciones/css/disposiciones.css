@@ -1,0 +1,24 @@
+.div-1{
+    color: blue;
+    background-color: cornflowerblue;
+}
+
+.div-2{
+    background-color: aquamarine;
+}
+
+.img{
+    width: 500px;
+    height: 220px;
+}
+
+.span1{
+background-color: blueviolet;
+}
+
+
+.span2{
+background-color:aquamarine;
+/* float: right; */
+    display: inline;
+}
