@@ -22,3 +22,54 @@ background-color:aquamarine;
 /* float: right; */
     display: inline;
 }
+
+div{
+    border: 1px solid green;
+    padding: 5px;
+    margin: 5px;
+}
+/* se posisicona en relacion al posicionamiento orignal */
+.relative{
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+/* posicionamiento fijo en relacion a la pantalla */
+.fixed{
+    position: fixed;
+    background-color: rgb(255, 0, 212);
+    margin-left: 89px;
+}
+
+.absolute{
+position: absolute;
+background-color: rgb(94, 31, 31);
+}
+
+.relative.contenedor{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.sticky{
+    position: sticky;
+    background-color: coral;
+    top: 0px;
+}
+
+.overflow{
+    background-color: crimson;
+    width: 300v;
+    height: 200px;
+    /* overflow: hidden;
+     //lo que sobresale se oculta */
+    /* overflow: scroll; 
+    //agrega una barra para con scroll ver todo el contenido */
+    /* overflow: visible;
+    // lo que sobresale se ve */
+    /* overflow: auto; */
+/* //automatico */
+overflow-y: scroll;
+/* hace scroll solo en el eje y */
+}

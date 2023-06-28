@@ -1,0 +1,29 @@
+.flex{
+    background-color: darkorange;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    /* align-items: stretch; */
+    align-items: center;
+    /* flex-wrap:wrap */
+}
+
+.conte1{
+    background-color: aliceblue;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+.conte2{
+    background-color: aliceblue;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}.conte3{
+    background-color: aliceblue;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
