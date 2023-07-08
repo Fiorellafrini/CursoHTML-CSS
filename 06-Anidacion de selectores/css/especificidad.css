@@ -1,0 +1,25 @@
+/* todos estos h1 se aplican a lo mismo, pero siempre v a tomar el mas especifico, en este caso todamaria el violeta. */
+
+/* PERO SI PONGO STYPE EN EL CODIGO HTML O JS EN LINEA ES SUPERIOR QUE TODOS ESTOS. ENTONCES TOMA ESE */
+
+/* pero si pongo !important ES EL MAYOR, PERO TENGO QUE EVITAR USARLO */
+h1#h1-id.h1-class{
+    color: red;
+}
+
+#h1-id{
+    color: darkmagenta;
+}
+.h1-class{
+    color: yellow;
+}
+h1{
+    color: blue !important;
+}
+
+
+
+p{
+    color: red;
+}
+
