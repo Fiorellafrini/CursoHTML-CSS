@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PSEUDO-CLASES</title>
+    <style>
+      .hover {
+        width: 300px;
+        height: 300px;
+        background-color: aqua;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .hover:hover {
+        background-color: blueviolet;
+      }
+
+      .listado {
+        padding: 15px;
+        background-color: burlywood;
+      }
+      .listado p:first-child {
+        color: blue;
+      }
+
+      /* LINK NO VISITADOS  */
+      a:link {
+        color: red;
+      }
+      /* LINK VISITADOS */
+      a:visited {
+        color: darkgreen;
+      }
+      a:hover {
+        color: palevioletred;
+      }
+      /*  CUANDO PRESIONO*/
+      a:active {
+        color: aqua;
+      }
+
+      
+    </style>
+    <link
+      rel="stylesheet"
+      href="/06-Anidacion de selectores/css/pseudoclases.css"
+    />
+  </head>
+  <body>
+    <div class="hover">
+      <p>holasdaffhddfgfgfdgfdagfdgfdgafgfdgfsdgfd</p>
+    </div>
+    <div class="listado">
+      <p>para1</p>
+      <p>para2</p>
+      <p>para3</p>
+      <p>para4</p>
+    </div>
+    <div class="enlaces">
+      <a href="http://google.com" target="_blank">IR A GOOGLE</a>
+      <a href="http://Ffacebook.com" target="_blank">IR A FACE</a>
+    </div>
+  </body>
+</html>

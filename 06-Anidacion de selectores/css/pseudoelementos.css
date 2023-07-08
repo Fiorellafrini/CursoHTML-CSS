@@ -1,0 +1,46 @@
+.contenedor{
+    width: 300px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+span.frase{
+font-style: italic;
+}
+/* pone algo al comienzo */
+span.frase::before{
+    content: "<<";
+    font-size: xx-small;
+}
+/* pone algo al final */
+span.frase::after{
+    content: ">>";
+    font-size: xx-small;
+}
+
+.libro{
+    background-color: blanchedalmond;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* primera letra grande */
+.libro p::first-letter{
+    font-size: xx-large;
+}
+
+/* primera letra en blanco */
+.libro p::first-line{
+    color: aqua;
+}
+/* cambiar el color cuando selecciono algo */
+.libro p::selection{
+    background-color: crimson;
+    color: blueviolet;
+}
+/* cambiar el color solo al icono de la lista  */
+.listado ul li::marker{
+    color: darkorange;
+}
+
+
