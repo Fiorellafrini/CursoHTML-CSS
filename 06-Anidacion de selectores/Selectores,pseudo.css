@@ -1,0 +1,38 @@
+/* 
+.boton-contenedor:hover{
+    color: white;
+    background-color: green;
+}
+
+.boton-contenedor::before {
+    content: "Pasa por encima";
+}
+
+.boton-contenedor:hover::before {
+    content: "";
+}
+
+.boton-contenedor::after {
+    content: "¡Hecho!";
+} */
+
+.boton-contenedor {
+    position: relative;
+}
+
+.boton-contenedor::before {
+    content: "Pasa por encima";
+}
+
+.boton-contenedor:hover::before {
+    content: "";
+}
+
+.boton-contenedor:hover::after {
+    content: "Hecho";
+}
+
+.boton-contenedor:hover {
+    color: white;
+    background-color: green;
+}
