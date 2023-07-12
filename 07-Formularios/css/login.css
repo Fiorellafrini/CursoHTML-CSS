@@ -1,0 +1,59 @@
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Kablammo&family=Tilt+Neon&family=Tilt+Prism&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+  *{
+    font-family: "Agdasima", sans-serif;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    /* align-self: flex-start; */
+  }
+.containerbuton{
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+
+}
+
+  .google{
+    background-color: rgb(71, 26, 235) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+  }
+
+  .google picture{
+    width: 35px;
+    background-color: white;
+    height: 35px;
+    border-radius: 2px;
+  }
+
+  .google picture img{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .google span{
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+  }
+
+  .google:hover{
+    opacity: 0.75;
+  }
