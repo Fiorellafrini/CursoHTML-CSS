@@ -1,0 +1,63 @@
+.input {
+  width: 100%;
+  padding: 5px 10px;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.input[type="password"] {
+  color: red;
+}
+
+.input-moderno {
+  /* border: none; */
+  border-bottom: 1px solid rgb(49, 49, 49);
+  outline: none;
+  padding: 5px;
+  color: rgb(41, 39, 39);
+}
+
+.input-moderno::placeholder {
+  color: aquamarine;
+}
+
+.input-moderno:focus {
+  border-bottom: 1px solid chartreuse;
+}
+
+.input-background {
+  background-color: bisque;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: violet;
+  box-shadow: 0 0 10px coral;
+}
+
+.input-background::placeholder {
+  color: rgba(163, 145, 180, 0.596);
+}
+
+.input-search {
+  padding: 10px;
+  padding-left: 60px;
+  border: none;
+  border-radius: 8px;
+  background-color: aquamarine;
+  margin: 10px;
+  background-image: url("../img/simbolo-de-la-interfaz-de-busqueda.png");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: contain;
+}
+
+textarea {
+  resize: vertical;
+}
+
+select {
+  width: 100%;
+  padding: 15px;
+  background-color: cornflowerblue;
+}
