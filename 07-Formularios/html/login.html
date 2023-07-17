@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="../css/login.css" />
   </head>
   <body>
-    <div class="containerbuton">
-      <h3>Resgintrate en los formularios</h3>
-      <div>
+    <div class="container">
+      <h3>Registrate en los formularios</h3>
+      <div class="containerbuton">
         <button class="google">
           <picture>
-            <img src="../img/simbolo-de-la-interfaz-de-busqueda.png" alt="lupa">
+            <img src="https://static-00.iconduck.com/assets.00/google-icon-2048x2048-czn3g8x8.png" alt="logo">
           </picture>
           <span>Registrarse con google</span>
         </button>
         <button class="tw">
-          <picture></picture>
+          <picture> TW
+          </picture>
         </button>
       </div>
 
@@ -28,33 +29,36 @@
       </div>
 
       <form action="" method="">
-        <div class="container">
-            <label for="name">
-                <span>Name</span>
-                <input id="name" name="name" >
-            </label>
-           
-            <label for="username">
-                <span>Username</span>
-                <input id="username" name="username" >
-            </label>
-           
-            <label for="email">
-                <span>Email</span>
-                <input id="email" name="email" >
-            </label>
-           
-            <label for="password">
-                <span>Password</span>
-                <input id="password" name="password" placeholder="6+ caracteres">
-            </label>
-           
-            <label for="checkbox">
-                <input type="checkbox" id="checkbox" >
-                <span>Acepto las condiciones </span>
-            </label>
-            <button type="submit">Crear Cuenta</button>
+        <div class="seccion-input">
+          <label for="name">
+            <span>Name</span>
+            <input id="name" name="name" />
+          </label>
+
+          <label for="username">
+            <span>Username</span>
+            <input id="username" name="username" />
+          </label>
         </div>
+
+        <label for="email">
+          <span>Email</span>
+          <input id="email" name="email" />
+        </label>
+
+        <label for="password">
+          <span>Password</span>
+          <input id="password" name="password" 
+          placeholder="6+ caracteres"
+           />
+        </label>
+
+        <label for="checkbox" class="check">
+          <input type="checkbox" id="checkbox" />
+          <span>Acepto las condiciones y el aviso legal</span>
+        </label>
+
+        <button type="submit" class="sub">Crear Cuenta</button>
       </form>
     </div>
   </body>
