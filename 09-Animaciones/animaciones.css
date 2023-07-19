@@ -1,0 +1,49 @@
+.padre{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: aquamarine;
+    /* transition: all 1s; */
+    /* transition: transform 1s linear;  */
+    /* transition: transform 1s ease-in 2s;  EL SEUNDO TIEMPO ES EL Deley */
+    animation: traslacion 1s 2 forwards alternate; 
+/* el forwards te mantiene el hover, sino dura 1s la traslacion, el 2 es la cantidad de veces que hace el hover o puedo poner infinite .
+alternate: va y viene*/
+
+}
+
+.padre:hover .hijo{
+
+/* animation-play-state: paused; */
+    /* transform: translateX(100%);
+    background-color: brown; */
+
+}
+ /* animacion , digo como es traslacion */
+@keyframes traslacion {
+0%{
+    background-color: rgb(255, 127, 155);
+    transform:translateX(0%) translateY(0%);
+}
+25%{
+    background-color: rgb(127, 255, 185);
+    transform:translateX(100%) translateY(0%);
+}
+50%{
+    background-color: rgb(127, 161, 255);
+    transform:translateX(100%) translateY(100%);
+}
+75%{
+    background-color: rgb(236, 255, 127);
+    transform:translateX(0%) translateY(100%);
+}
+100%{
+    background-color: yellow;
+    transform:translateX(0%) translateY(0%);
+}
+}
