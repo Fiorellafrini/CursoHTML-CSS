@@ -1,0 +1,41 @@
+h1 {
+  color: red;
+  font-size: 4rem;
+}
+
+p {
+  color: green;
+  font-size: 2rem;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    color: blue;
+  }
+}
+
+/* @media (max-width: 995px) {
+    h1 {
+      color: green;
+    }
+  } */
+  
+  @media (min-width: 995px) {
+    h1 {
+      color: green;
+    }
+  }
+
+@media (min-height: 300px){
+    p{
+        color: black;
+    }
+}
+
+/* vista horizontal */
+/* se puede poner dos condiciones, y solo se ponen si se cumplen las dos. */
+@media (orientation: landscape) and (min-height: 400px){
+    p{
+        color: coral;
+    }
+}
