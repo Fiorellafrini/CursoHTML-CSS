@@ -1,0 +1,13 @@
+.btn-modern{
+background-color: rgb(235, 235, 235);
+transition: 0.4s;
+
+}
+
+.btn-modern:hover{
+transform: translateY(-5px);
+background-color: gray;
+color: chartreuse;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
