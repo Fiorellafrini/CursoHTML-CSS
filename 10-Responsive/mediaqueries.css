@@ -33,6 +33,7 @@ p {
 }
 
 /* vista horizontal */
+
 /* se puede poner dos condiciones, y solo se ponen si se cumplen las dos. */
 @media (orientation: landscape) and (min-height: 400px){
     p{
